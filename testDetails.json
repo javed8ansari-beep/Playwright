@@ -1,0 +1,29 @@
+[
+{
+    "testName": "Check User Name is empty",
+    "userName": "",
+    "passWord": "secret_sauce",
+    "testMsg": "Epic sadface: Username is required"
+}
+,
+{
+    "testName": "Check Password is empty",
+    "userName": "standard_user",
+    "passWord": "",
+    "testMsg": "Epic sadface: Password is required"
+}
+,
+{
+    "testName": "Check if user and password both empty",
+    "userName": "",
+    "passWord": "",
+    "testMsg": "Epic sadface: Username is required"
+}
+,
+{
+    "testName": "Check if incorrect credentials",
+    "userName": "standard_user1",
+    "passWord": "secret_sauce1",
+    "testMsg": "Epic sadface: Username and password do not match any user in this service"
+}
+]
